@@ -25,6 +25,7 @@ configuration = Configuration(access_token=os.getenv('CHANNEL_ACCESS_TOKEN'))
 line_handler = WebhookHandler(os.getenv('CHANNEL_SECRET'))
 
 
+
 @app.route("/callback", methods=['POST'])
 def callback():
     # get X-Line-Signature header value
