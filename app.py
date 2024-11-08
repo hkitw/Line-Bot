@@ -15,7 +15,7 @@ from linebot.v3.messaging import (
 )
 from linebot.v3.webhooks import (
     MessageEvent,
-    TextMessageContent,
+    TextMessageContent
 )
 import os
 
